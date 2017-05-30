@@ -88,8 +88,8 @@ solution = scikits.bvp_solver.solve(problem,
 
 x = numpy.linspace(problem.boundary_points[0],problem.boundary_points[1], 100)
 y = solution(x)
-print "lambda = " + str(solution.parameters[0])
-print "mat4bvp gives lambda ~= 17.097"
+print("lambda = " + str(solution.parameters[0]))
+print("mat4bvp gives lambda ~= 17.097")
 
 pylab.plot(x, y[0,:],'-')
 pylab.plot(x, y[1,:],'-')

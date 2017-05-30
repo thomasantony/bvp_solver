@@ -39,8 +39,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'scikits.bvp_solver'
-copyright = u'2009, John Salvatier'
+project = 'scikits.bvp_solver'
+copyright = '2009, John Salvatier'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -176,8 +176,8 @@ htmlhelp_basename = 'scikitsbvp_solverdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'scikitsbvp_solver.tex', u'scikits.bvp\\_solver Documentation',
-   u'John Salvatier', 'manual'),
+  ('index', 'scikitsbvp_solver.tex', 'scikits.bvp\\_solver Documentation',
+   'John Salvatier', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

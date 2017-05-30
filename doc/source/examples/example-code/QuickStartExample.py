@@ -63,7 +63,7 @@ The "solve" function returns a Solution object which can be passed an array of p
 """
 A = numpy.linspace(0,Ahx, 45)
 T = solution(A)
-print T
+print(T)
 
 """
 We can plot the solution using pylab with the following code

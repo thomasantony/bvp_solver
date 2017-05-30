@@ -91,15 +91,15 @@ v = solution(z)
 
 # Comparison of the results
 
-print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-print 'The analytical solution of the problem at the outlet is: '
-print 'Final Conversion=  0.83605373297390484' 
-print 'Final Concentration = 0.16394626702609519'
-print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-print 'The numerical solution of the problem at the outlet is: '
-print 'Final Conversion= ', v[0,99]
-print 'Final Concentration = ', 1.0- v[0,99]
-print '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('The analytical solution of the problem at the outlet is: ')
+print('Final Conversion=  0.83605373297390484') 
+print('Final Concentration = 0.16394626702609519')
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('The numerical solution of the problem at the outlet is: ')
+print('Final Conversion= ', v[0,99])
+print('Final Concentration = ', 1.0- v[0,99])
+print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 
 # Plotting of the solution along z
 pl.figure()

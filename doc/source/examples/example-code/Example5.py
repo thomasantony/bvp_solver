@@ -5,7 +5,7 @@ Created on Apr 29, 2009
 
 @author: johnsalvatier
 '''
-from __future__ import division
+
 import scikits.bvp_solver
 import numpy
 import pylab

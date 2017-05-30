@@ -1,5 +1,5 @@
 import numpy
-import tools
+from . import tools
 import bvp_solverf
 import pickle
 

@@ -74,8 +74,8 @@ solution =scikits.bvp_solver.solve(problem2,
                             parameter_guess = 1,
                             initial_mesh = numpy.linspace(problem2.boundary_points[0],problem2.boundary_points[1], 21),
                             trace =2)
-print (solution.solution)
-print solution.parameters
+print((solution.solution))
+print(solution.parameters)
 pylab.plot(solution.mesh, solution.solution[0,:],'-')
 
 pylab.show()
